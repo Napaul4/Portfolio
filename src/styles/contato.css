@@ -1,0 +1,38 @@
+.cta {
+  margin-bottom: 16px;
+  .contato-phone {
+    height: 250px;
+    margin-left: 30px;
+  }
+  .contato-td {
+    display: none;
+  }
+
+  .text-cta {
+    margin-left: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+
+    li {
+      margin-right: 8px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cta {
+    .d-flex {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    ul {
+      margin-top: 0.5rem;
+    }
+  }
+}

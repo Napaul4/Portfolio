@@ -1,0 +1,45 @@
+.sobre {
+  .img {
+    img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+
+  .description {
+    margin-left: 1.5rem;
+    line-height: 1.5rem;
+
+    .middle {
+      margin: 16px 0;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sobre {
+    h2 {
+      margin-bottom: 16px;
+    }
+    .img {
+      img {
+        float: left;
+      }
+    }
+
+    .description {
+      margin-left: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sobre {
+    .d-flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./sobre.css);
+@import url(./projetos.css);
+@import url(./contato.css);
+@import url(./footer.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #050902;
+  color: #d0b561;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #d0b561;
+}
+
+img {
+  border-radius: 4px;
+}
+
+img.ass {
+  width: 10rem;
+}
+
+section {
+  margin-top: 7rem;
+  z-index: 1;
+}
+
+.container {
+  max-width: 375px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    width: 95%;
+  }
+}
